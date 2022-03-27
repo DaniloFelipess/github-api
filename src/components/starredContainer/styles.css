@@ -1,0 +1,53 @@
+.sectionRepos {
+  width: 400px;
+  height: 420px;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.863);
+  border-radius: 10px;
+  border-bottom: 10px solid rgb(185, 185, 185);
+}
+
+@media (max-width: 430px) {
+  .sectionRepos {
+    width: 300px;
+  }
+}
+
+.titleRepos {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #444;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+}
+.repoList {
+  height: 350px;
+  width: 100%;
+  overflow-y: scroll;
+}
+.list {
+  width: 100%;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.list h2 {
+  font-size: 15px;
+  width: 90%;
+  overflow: hidden;
+  color: #444;
+}
+
+.list p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #777;
+  width: 100%;
+  height: 30px;
+  overflow: hidden;
+  line-height: 1.3;
+  margin-top: 10px;
+}

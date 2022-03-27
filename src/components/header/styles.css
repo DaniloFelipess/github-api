@@ -1,0 +1,81 @@
+
+.headerSection {
+  margin-top: 60px;
+  padding-bottom: 20px;
+  width: 400px;
+  min-width: 300px;
+  display: block;
+  text-align: center;
+  background-color: rgb(185, 185, 185);
+  border-radius: 10px;
+}
+@media (max-width: 430px) {
+  .headerSection {
+    width: 305px;
+  }
+}
+
+.card {
+  width: 400px;
+  background: rgba(255, 255, 255, 0.863);
+  border-radius: 10px;
+  border-bottom: 10px solid rgb(185, 185, 185);
+  margin-top: 15px;
+}
+@media (max-width: 430px) {
+  .card {
+    width: 305px;
+  }
+}
+
+.headerSection p {
+  font-size: 22px;
+}
+.inputSearchUser {
+  font-size: 20px;
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+.searchButtonUser {
+  font-size: 19px;
+  padding-left: 10px;
+}
+
+.container-search {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  size: 20px;
+}
+
+.container-search input {
+  height: 5vh;
+  width: 20vw;
+  min-width: 200px;
+  font-size: 16px;
+  border: solid 1px cadetblue;
+  text-align: center;
+}
+
+.container-search button {
+  width: 50px;
+  height: 39px;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.container-search button:hover {
+  width: 50px;
+  background-color: rgb(130, 198, 201);
+  color: white;
+  border: none;
+}
+
+.divButtons {
+  padding-top: -50px;
+  display: flex;
+  align-items: initial;
+  justify-content: center;
+}
